@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 18, 2017, 9:54:38 PM
+    Author     : USER
+*/
+
+            #header 
+            {
+                width: 100%;
+                height: 125px;
+                background-color: whitesmoke;
+                box-sizing: border-box;
+            }
+            #h1 img
+            {
+                padding-top: 20px;
+                padding-left: 60px;
+                float: left;
+            }
+            #h1 div
+            {
+                float: right;
+                box-sizing: border-box;
+                padding-right: 20px;
+                
+            }
+            #h1 li
+            {
+                list-style-type: none;
+                display: inline;
+
+            }
+            #cart{
+                width: 70px;
+                height: 70px;
+                background-image: url(empty-cart.png);
+                margin: 5px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                border: 1px solid #cccccc;
+               
+            }
+            #h2
+            {
+                width: 100%;
+                height: auto;
+                background-color: whitesmoke;
+                box-sizing: border-box; 
+                font-family: initial;
+                z-index: 1; position: relative;
+                
+            }
+            #h2 input
+            {   background-position: right;
+                background-image: url(698627-icon-111-search-128.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                border: solid 1px black;
+                padding: 9px 10px 9px 32px;
+                width: 300px;
+                transition: all.5s;
+            }
+            #h2 td
+            {
+                text-align: center;
+                width:10%;
+                position: relative;
+            }
+            #showroom
+            {
+                width: 100%;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            #showroom td img
+            {
+                width: 250px;
+                height: 275px;
+            }
+            #showroom a{
+                text-decoration:none;
+                padding: 5px;
+                color:black;
+            }
+            #contract 
+            {
+                width: 100%;
+                background-color: #222222;
+                color: white;
+            }
+            #contract-address div
+            {
+                background-image: url(iconfb.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                border:1px solid white;
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                display: inline-block;
+            }
+            ul.submenu >li{
+                list-style-type: none;
+            }
+            ul.submenu {
+                padding-left: 0px; display: none;
+                font-size: 18px;
+                position: absolute;
+                width: 200px;
+                background-color: whitesmoke;
+            }
+            td:hover ul.submenu
+            {
+                display: block;
+            }
+            #h2 a
+            {
+                text-decoration:none;
+                padding: 5px;
+                color:black;
+            }
+            #h2 a:hover
+            {
+                color: red;
+            }
+            #h1 li:hover
+            {
+                color: red;
+            }
+            #email:hover
+            {
+                color: red;
+                cursor: pointer;
+            }
+            #contract-address div:hover
+            {
+                background-color: red;
+                cursor: pointer;
+            }
+            #left {
+                display: inline;
+            }
+            #right{
+                display: inline;
+            }
+            #big td{
+                opacity: 0.5;
+            }
+            div:hover #big td{
+                opacity: 1;
+            }
+            #small img{
+               display: inline;
+               width: 20px;
+               height: 20px;
+               border-radius: 50%;
+            }
+            #macdinh{
+                opacity: 0.5;
+            }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newjavascript.js"></script>
+        <link href="newcss.css" rel="stylesheet">
+        
+        <style>
+            #hang{
+                width: 100%;
+                height: auto;
+            }
+            #hang table{
+                border: 1px solid black;
+            }
+            #hang th{
+                background-color: #999;
+            }
+            #hang img{
+                width: 100px;
+                height: 100px;
+            }
+            table{
+                width: 100%;
+            }
+            p
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body onload="show()">
+<!--Header chung -->
+        
+        <div id="header">
+            <div id="h1">
+                <a href="index.html"><img src="logo.png"></a>
+                <div>
+                <ul>
+                    <table>
+                        <tr>
+                            <th>
+                    <li><a>090.8268.007 </a>|</li>
+                    <li><a> ĐĂNG KÝ </a>|</li>
+                    <li><a> ĐĂNG NHẬP</a></li><br>
+                    <li>......................................................................</li><br>
+                    <li><a>Miễn phí vận chuyển <span style="color: red;">ĐƠN HÀNG TRÊN 1.000.000Đ</span></a></li>
+                    </th>
+                    <th>
+                        <a href="giohang.html"><div id="cart"></div></a>
+                    </th>
+                       </tr>
+                    </table>
+                </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div id="h2">
+            <table width="80%" align="center" cellspacing="5" cellpadding="0" class="menu" id="menu">
+                <td><a href="index.html" onclick="doimauClick(this)" style="color: red">TRANG CHỦ</a></td>
+                <td><a href="gioithieu.html" onclick="doimauClick(this)">GIỚI THIỆU</a></td>
+                <td style="height: 50px"><a href="sanpham.html" onclick="doimauClick(this)">SẢN PHẨM▼</a>
+                        <ul class="submenu">
+                            <li><a href="hangcosan.html" onclick="doimauClick(this)">Hàng có sẵn</a></li><br>
+                            <li><a href="hangorder.html" onclick="doimauClick(this)">Hàng order</a></li><br>                        
+                        </ul></td>
+                        <td><a href="hoidap.html" onclick="doimauClick(this)">HỎI & ĐÁP</a></td>
+                        <td><a href="lienhe.html" onclick="doimauClick(this)">LIÊN HỆ</a></td>
+                    <td width="30%"></td>
+                </table>
+            </div>
+        <br>        
+                    
+        <div>
+            <div id="hang">
+                
+            </div>
+            <div id="ttkh">
+                <form action="index.html">
+                    ho ten<input type="text" id="ten" required="required">*
+                    <br>
+                    dien thoai<input type="text" id="dien thoai" required="required"
+                                     pattern="^[0-9]{10}$">*
+                    <br>
+                    <input type="submit" value="submit" onclick="xongddh()">
+                    
+                </form>
+                <a href="#" onclick="window.history.back()"><input type="button" value="tiep tuc mua hang"></a>
+            </div>
+        </div>
+                                <div id="contract">
+            <table width="90%"cellpadding="0" align="center">
+                <tr>
+                    <td width="11%">
+                        <ul style="list-style-type: none;">
+                            <h1 style="font-size: 18px">GIỚI THIỆU</h1>
+                            <li>Bạn là người cực kỳ đam mê figure cao cấp, đầy mê hoặc của Nhật Bản và muốn tìm mua chúng bằng mọi cách tại Việt Nam ? Hoan nghênh bạn đến với Japan Figure. Cửa hàng chuyên bán online và chưa có không gian trưng bày, bạn vui lòng gọi hẹn trước khi đến trực tiếp.</li><br>
+                            <li>
+                                <div><img src="iconhome.PNG" width="30px" height="20px;">384/97A Lý Thái Tổ, P10, Q10, Tp.HCM</div><br>
+                                <div id="email"><img src="iconemail.PNG" width="26px" height="20px">support@japanfigure.vn</div><br>
+                                <div><img src="iconphone.PNG" width="30px" height="20px">090.8268.007 (Vui lòng gọi trước khi đến)</div>
+                            </li>
+                        </ul>
+                
+                    </td>
+                    <td width="10%" id="contract-address">
+                        <h1 style="font-size: 18px">ĐĂNG KÍ NHẬN TIN</h1>
+                        <ul style="list-style-type: none; display: inline">
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            <li><div></div></li>
+                            
+                        </ul>
+                    </td>
+                    <td width="20%">
+                        <h1 style="font-size: 18px">KẾT NỐI VỚI CHÚNG TÔI</h1>
+                        <div><img src="connectfb.PNG"></div>
+                    </td>
+                </tr>
+            </table>
+            <div style="background-color: black;height: 50px; text-align: center">Copyright © 2017 Japan Figure.</div>
+            </div>
+    </body>
+</html>
